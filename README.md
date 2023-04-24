@@ -5,14 +5,14 @@
 ### 1. Install Docker Desktop
 https://www.docker.com/products/docker-desktop/
 
-### 2. Open this folder in your IDE
+### 2. Clone and open this repo in your IDE
 
 ### 3. Run
 ```bash
 docker-compose up -d
 ```
 
-If the command is run successfully you should see these line
+If the command is run successfully you should see these lines
 ```bash
 Creating weather-app_mongo_1 ... done
 Creating weather-app_node_1  ... done
