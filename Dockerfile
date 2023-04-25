@@ -1,5 +1,5 @@
 # Sets the base image of the application to the node’s official image.
-FROM node:17
+FROM node:18
 
 # Sets the Working Directory as "/server"
 WORKDIR /server

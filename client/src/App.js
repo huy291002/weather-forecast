@@ -11,9 +11,9 @@ export default function App() {
       <div className="Home">
         <Router>
             <Routes>
-              <Route path ="/" element ={<Home/ > } />
-              <Route path ="/weather" element ={<Weather/ >} />
-              <Route path ="/settings" element ={<Settings/ >} />
+              <Route path="/" element={<Home/ >} />
+              <Route path="/weather" element={<Weather/ >} />
+              <Route path="/settings" element={<Settings/ >} />
             </Routes>
         </Router>
       </div>
