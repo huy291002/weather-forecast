@@ -9,14 +9,16 @@ https://www.docker.com/products/docker-desktop/
 
 ### 3. Run
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 If the command is run successfully you should see these lines
 ```bash
-Creating weather-app_mongo_1 ... done
-Creating weather-app_node_1  ... done
-Creating weather-app_react_1 ... done
+[+] Running 4/4
+ ✔ Network weather-app_default    Created
+ ✔ Container weather-app-mongo-1  Started
+ ✔ Container weather-app-node-1   Started
+ ✔ Container weather-app-react-1  Started
 ```
 Then open http://localhost:5000/ in your browser you should see
 ![localhost5000](/media/localhost5000.png)
