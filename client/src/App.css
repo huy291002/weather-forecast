@@ -2,23 +2,28 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.AppHeader{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 4px 20px 4px 12px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  background-color: blue;
+}
+.SideBar{
+  height: 100%;
+  background-color: blue;
+}
+.Side-barandpage-content{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.05) ;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.PageContent{
+  padding-left: 12px;
 }
