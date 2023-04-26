@@ -5,6 +5,7 @@ FROM node:18
 WORKDIR /server
 # Copies the package.json file into "/server" and runs npm i
 COPY package.json /server
+COPY package-lock.json /server
 RUN npm i
 # Copies the entire source code into "/server"
 COPY . /server

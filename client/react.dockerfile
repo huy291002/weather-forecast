@@ -5,6 +5,7 @@ WORKDIR /client
 
 # Copies the package.json file into "/client" and run npm i
 COPY package.json /client
+COPY package-lock.json /client
 RUN npm install
 # Copies the entire react source code into "/client"
 COPY . /client
