@@ -1,11 +1,10 @@
 .SideBar{
     height: 100vh;
-    background-color: #3592A7;
+    background-color: #ac7d68;
     padding: 10px; 
-    /* background-image: url("/weather-app/client/src/sidebar.jpg"); */
-    width: 100%;
     display: grid;
-    font-size: medium;
+    font-size: 40px;
+    font-weight: bold;
+    font-size: 25px;
     font-display: block
-    
   }

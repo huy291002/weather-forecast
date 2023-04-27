@@ -3,16 +3,23 @@ import './App.css';
 import SideBar from "./Components/SideBar";
 import PageContent from "./Components/PageContent";
 import AppHeader from "./Components/AppHeader";
-import background from './backgroundweather2.jpg'
+import { useEffect } from 'react';
+import { useState } from "react";
+
+
 function App() {
+  useEffect(() => {
+    setTimeout(() => {
+      document.body.classList.add('loaded');
+    }, 1000);
+  }, []);
   return (
     <>
       <div className="App">
-        {/* <AppHeader /> */}
         <div className="Side-barandpage-content" >
           <div style={{ width: '15%' }}> <SideBar></SideBar></div>
-          <div  style={{ width: "100%", backgroundImage: `url(${background})` }}><PageContent></PageContent></div>
-
+          <div  style={{ width: "100%"}}><PageContent ></PageContent></div>
+           
         </div>
       </div>
     </>
