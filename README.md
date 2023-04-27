@@ -13,7 +13,7 @@ docker-compose up -d --build
 ```
 
 If the command is run successfully you should see these lines
-```bash
+```
 [+] Running 4/4
  ✔ Network weather-app_default    Created
  ✔ Container weather-app-mongo-1  Started
@@ -27,3 +27,17 @@ And open http://localhost:3000/ you should see
 ![localhost3000](/media/localhost3000.png)
 
 ### 4. Start developing
+
+#### How to install node packages
+1. Run 
+    
+    ```
+    docker exec -it weather-app-react-1 npm install <package>
+    ```
+
+    For example: `docker exec -it weather-app-react-1 npm install react-router-dom`
+
+2. Run
+```bash
+docker-compose up -d --build
+```
