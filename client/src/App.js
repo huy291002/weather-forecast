@@ -3,14 +3,15 @@ import './App.css';
 import SideBar from "./Components/SideBar";
 import PageContent from "./Components/PageContent";
 import AppHeader from "./Components/AppHeader";
+import background from './backgroundweather2.jpg'
 function App() {
   return (
     <>
       <div className="App">
-        <AppHeader />
+        {/* <AppHeader /> */}
         <div className="Side-barandpage-content" >
           <div style={{ width: '15%' }}> <SideBar></SideBar></div>
-          <div className="content" style={{ width: "100%" }}><PageContent></PageContent></div>
+          <div  style={{ width: "100%", backgroundImage: `url(${background})` }}><PageContent></PageContent></div>
 
         </div>
       </div>

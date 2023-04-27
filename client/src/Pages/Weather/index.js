@@ -1,8 +1,11 @@
 import React from 'react';
-
-import './index.css'
+import { Menu } from 'antd';
+import './index.css';
 import { Space, Table, Typography } from "antd";
-
+import ThermostatAutoIcon from '@mui/icons-material/ThermostatAuto';
+import BackupOutlinedIcon from '@mui/icons-material/BackupOutlined';
+import WbSunnyIcon from '@mui/icons-material/WbSunny';
+import CropDinIcon from '@mui/icons-material/CropDin';
 //import Table from "react-bootstrap/Table";
 function Weather() {
   const columns = [
@@ -36,7 +39,7 @@ function Weather() {
       ],
     },
   ];
-  
+
   return (
     <>
 
@@ -60,15 +63,27 @@ function Weather() {
             />
           </Space>
         </div>
-        <div className='row ps-6'>
-        <Typography.Title level={4}>AIR CONDITION</Typography.Title>
-            <div className='col-4'>
-                Hello
+
+        <div className='ps-6'>
+          <Typography.Title level={4}>AIR CONDITION</Typography.Title>
+          <div >
+            <div className='left-temparature'>
+              <ThermostatAutoIcon></ThermostatAutoIcon> Temparature
             </div>
-            <div className='col-4'>
-                Hi
+            <div className='right-airhumidity'>
+              <BackupOutlinedIcon></BackupOutlinedIcon> Air Humidity
 
             </div>
+          </div>
+          <div>
+            <div className='solid-humidity'>
+              <CropDinIcon></CropDinIcon> Solid Humidity
+            </div>
+            <div className='lightintensity'>
+              <WbSunnyIcon></WbSunnyIcon> Light Intensity
+
+            </div>
+          </div>
 
         </div>
       </div>

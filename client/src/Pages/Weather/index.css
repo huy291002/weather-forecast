@@ -1,6 +1,6 @@
 .ps-3{
     margin-left: 0px;
-    padding-top: 25px;
+    padding-top: 5px;
     /* justify-content: left;
     align-items: start; */
     color: white;
@@ -12,7 +12,7 @@
 .ps-5{
     margin-left: 0px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     color: white;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
@@ -21,7 +21,7 @@
 .ps-4{
     padding-left: 0px;
     /* margin-top: 20px;  */
-    padding-top: 50px;
+    padding-top: 0px;
     width: 100%;
     height: 100%;
     font-style: normal;
@@ -59,10 +59,47 @@
     margin-top: 10px;
     background-color: #E5DCE7;
     color: #3562A7;
-    align-items:left ;
+    justify-content: center;
+    align-items: center;
     justify-content: flex-start;
-    text-align: left;
-    height: 100px;
+
+    height: 150px;
     width: 100%;
     font-weight: bold;
+    
+}
+.ps-7{
+    display: flex;
+    flex-direction: row;
+    
+}
+.left-temparature{
+    position: absolute;
+    left: 100px;
+    width: 300px;
+    
+    padding-left: 10px;
+
+}
+.right-airhumidity{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    
+    padding: 10px;
+}
+.solid-humidity{
+    position: absolute;
+    left: 100px;
+    width: 300px;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.lightintensity{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding-top: 50px;
+    padding: 10px;
+    margin-top: 50px;
 }
