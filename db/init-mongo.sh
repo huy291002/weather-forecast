@@ -1,1 +1,1 @@
-mongoimport --authenticationDatabase=admin --uri='mongodb://mern:merndocker@:27017/test' --collection='data' --file=/data.csv --type=csv --fields="time","solid_humidity","air_humidity","temperature","light_intensity" --maintainInsertionOrder
+mongoimport --authenticationDatabase=admin --uri='mongodb://mern:merndocker@:27017/test' --collection='data' --file=/data.csv --type=csv --columnsHaveTypes --fields="time.date(2006-01-02 15:04:05),solid_humidity.double(),air_humidity.double(),temperature.double(),light_intensity.double()" --maintainInsertionOrder
