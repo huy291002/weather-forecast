@@ -4,4 +4,5 @@ mongoimport \
    --collection='data' \
    --file=/data.csv \
    --type=csv \
-   --fields="time","solid_humidity","air_humidity","temperature","light_intensity"
+   --fields="time","solid_humidity","air_humidity","temperature","light_intensity" \
+   --maintainInsertionOrder
