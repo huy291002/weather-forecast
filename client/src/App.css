@@ -13,17 +13,30 @@
   background-color: blue;
 }
 .SideBar{
-  height: 100%;
-  background-color: blue;
+  height: 100vh;
+  background-color: #3592A7;
+  padding: 10px; 
+  
+  display: grid;
+  font-size: medium;
+  font-display: block
 }
 .Side-barandpage-content{
   display: flex;
-  flex: 1;
+  /* flex-direction: row; */
+  /* flex: 1;
   justify-content: flex-start;
-  align-items: flex-start;
-  background-color: rgba(0, 0, 0, 0.05) ;
+  align-items: flex-start; */
+  background-color: rgba(118, 91, 91, 0.05) ;
+  /* width: 100%;  
+  height: 100%; */
+}
+.content{
+  margin-top: 10px;
 }
 
-.PageContent{
-  padding-left: 12px;
+body{
+  
+  background-color: #282525;
 }
+

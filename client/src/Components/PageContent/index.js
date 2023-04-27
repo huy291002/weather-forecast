@@ -2,7 +2,7 @@ import React from 'react'
 import Router from "../Router"
 function PageContent() {
   return (
-    <div className = "PageContent">
+    <div >
         <Router />
     </div>
   )
