@@ -9,7 +9,7 @@ https://www.docker.com/products/docker-desktop/
 
 ### 3. Run
 ```bash
-docker-compose up -d --build
+docker-compose up -d
 ```
 
 If the command is run successfully you should see these lines
@@ -39,5 +39,5 @@ And open http://localhost:3000/ you should see
 
 2. Run
 ```bash
-docker-compose up -d --build
+docker-compose up -d
 ```
