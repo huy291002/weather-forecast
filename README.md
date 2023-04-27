@@ -39,5 +39,5 @@ And open http://localhost:3000/ you should see
 
 2. Run
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ```
