@@ -37,8 +37,8 @@ services:
     volumes:
       # <nameOfVolume>:<directorInDocker>
       - mongoDB:/data/db
-      - ./init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh
-      - ./data/data.csv:/data.csv
+      - ./db/init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh
+      - ./db/data.csv:/data.csv
   # Add the react service
   react:
     build:
