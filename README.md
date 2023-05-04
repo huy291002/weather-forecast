@@ -1,4 +1,6 @@
 # Weather App
+![Weather App](/media/weather-app.png)
+
 
 ## How to develop
 
@@ -20,13 +22,12 @@ If the command is run successfully you should see these lines
  ✔ Container weather-app-node-1   Started
  ✔ Container weather-app-react-1  Started
 ```
-Then open http://localhost:5000/ in your browser you should see
-![localhost5000](/media/localhost5000.png)
-
-And open http://localhost:3000/ you should see
-![localhost3000](/media/localhost3000.png)
 
 ### 4. Start developing
+
+React: http://localhost:3000/
+
+Express: http://localhost:5000/
 
 #### How to install node packages
 1. Run 
