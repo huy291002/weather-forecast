@@ -43,7 +43,7 @@ function Weather() {
         setData(data[0])
       })
 
-      fetch("https://api.open-meteo.com/v1/forecast?latitude=10.74&longitude=106.65&hourly=temperature_2m")
+      fetch("https://api.open-meteo.com/v1/forecast?latitude=10.82&longitude=106.63&hourly=temperature_2m&timezone=Asia%2FBangkok")
       .then(response => {
         return response.json()
       })
