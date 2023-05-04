@@ -1,10 +1,30 @@
+:root {
+  --sidebar-bg-color: #ac7d68;
+  --sidebar-bg-color-dark: #363537;
+  --button-color: #363537;
+  --button-color-dark: #fff;
+}
 .SideBar{
     height: 100vh;
-    background-color: #ac7d68;
+    background-color: var(--sidebar-bg-color);
     padding: 10px; 
     display: grid;
     font-size: 40px;
+    transition: background-color 0.7s ease-in-out;
     font-weight: bold;
     font-size: 25px;
     font-display: block
   }
+.SideBar .ant-menu-item {
+    color: var(--button-color);
+  }
+
+body.dark-mode .SideBar  {
+  background-color: var(--sidebar-bg-color-dark);
+}
+
+body.dark-mode .SideBar .ant-menu-item {
+  color:#ac7d68;
+}
+
+

@@ -1,6 +1,25 @@
 .App {
   text-align: center;
 }
+body {
+  background-image: url('/src/assets/sunset.jpg');
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.loaded {
+  opacity: 0.7;
+}
+body.dark-mode {
+  transition: background-image 0.7s ease-in-out;
+  background-image: url('/src/assets/thom-holmes-qluz8quWa5Q-unsplash.jpg');
+}
 
 .AppHeader{
   height: 50px;
@@ -37,7 +56,6 @@
 }
 
 body{
-  
   background-color: #282525;
 }
 
