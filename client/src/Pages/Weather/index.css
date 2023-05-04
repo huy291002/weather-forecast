@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  .text-center {
+    position: relative;
+  }
+  
+  .ps-3 {
+    margin-left: 0px;
+    padding-top: 5px;
+    color: white;
+    font-style: normal;
+    font-size: 25px;
+  }
+  
+  .ps-5 {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  .ps-4 {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-size: 20px;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .border-right-table {
+    border-right: 1px solid rgb(0, 0, 0);
+    border-right-width: 1px;
+  }
+  
+  .rowClassName1 {
+    background-color: cadetblue;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+  }
+  
+  .tableOfHour .ant-table-thead > tr > th:first-child,
+  .tableOfHour .ant-table-thead > tr:last-child > th:not(:first-child) {
+    width: 150vh;
+    text-align: center;
+    background-color: rgba(229, 220, 231, 0.7);
+
+  }
+  
+  .ant-table-tbody > tr > td {
+    background-color: rgba(229, 220, 231, 0.7);
+  }
+  
+  .ps-6 {
+    margin-top: 10px;
+    color: #3562A7;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    height: 150px;
+    width: 100%;
+    font-weight: bold;
+    background-color: #E5DCE7;
+  }
+  
+  .ps-7 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-temparature {
+    position: absolute;
+    left: 100px;
+    width: 300px;
+    padding-left: 10px;
+  }
+  
+  .right-airhumidity {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .solid-humidity {
+    position: absolute;
+    left: 100px;
+    width: 300px;
+    margin-top: 50px;
+    padding-left: 10px;
+  }
+  
+  .lightintensity {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding-top: 50px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  
